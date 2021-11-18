@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 
 import { ShoppingBagContext } from "./context/ShoppingBagContext"; //brings in the Shopping Bag Context we created
-import { fetchProducts } from "./ProductsData"; //brings in our mock data
+import { fetchProducts } from "./ProductData"; //brings in our mock data
 
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
